@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+h1,h3,p {
+    text-align: center;
+}
+
+.graph {
+    margin: 0 auto;
+    background-color: center;
+}
+
+.tooltip {
+    background-color: crimson;
+    border: 1px solid black;
+    width: 100px;
+    opacity: 0;
+    color: black;
+    position: absolute;
+}
