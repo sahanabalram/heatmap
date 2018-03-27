@@ -17,5 +17,12 @@ $(document).ready(function(){
         colorScale.domain(d3.extend(data,function(d){
             return d.variance;
         }));
+
+        var barWidth = width /(data.length / 12);
+        var barHeight = height / 12;
+
+        var xAxis = d3.svg.axis().scale(xScale).orient("bottom");
+        
+        var yAxis = d3.svg.axis.scale(yScale).orient("left").tick(12);
     })
 });
